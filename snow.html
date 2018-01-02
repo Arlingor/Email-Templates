@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ 
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Anton|Pacifico|Ranchers');
+        /* Responsive */
+ 
+        @media screen and (max-width: 480px) {
+            .responsive-table {
+                display: block;
+                width: 100% !important;
+            }
+ 
+            .responsive-image {
+                height: auto;
+                max-width: 100% !important;
+            }
+ 
+            .small-box {
+                width: 75% !important;
+                box-sizing: border-box !important;
+            }
+        }
+        /* End Responsive */
+        #snow {
+            background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
+            height: 100%;
+            -webkit-animation: snow 10s linear infinite;
+            -moz-animation: snow 10s linear infinite;
+            -ms-animation: snow 10s linear infinite;
+            animation: snow 10s linear infinite;
+        }
+        .tblimg {
+            width: 600px;
+            height: 900px !important;
+            background-size: 100% 100% !important;
+        }
+ 
+        .wishes {
+            margin-bottom: 180px;
+            color: white;
+            font-size: 25px;
+            word-wrap: break-word;
+        }
+ 
+        .header {
+            font-family: 'Pacifico', cursive;
+            font-size: 35px;
+        }
+ 
+        .text1 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 28px;
+            margin: 5px !important;
+            padding: 0px !important;
+        }
+ 
+        .text2 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+            margin: 10px !important;
+            padding: 0px !important;
+        }
+ 
+        .off {
+            font-family: 'Ranchers', cursive;
+            font-size: 40px;
+            margin: 10px !important;
+            padding: 0px !important;
+        }
+ 
+        .shipping {
+            font-family: 'Ranchers', cursive;
+            font-size: 35px;
+        }
+ 
+        .button {
+            border: 2px solid white;
+            border-radius: 5px;
+            display: inline-block;
+            padding: 5px;
+            font-size: 30px;
+        }
+ 
+        .button:hover {
+            background-color: red;
+        }
+        /* Animation Frames */
+ 
+        @keyframes snow {
+            0% {
+                background-position: 0px 0px, 0px 0px, 0px 0px;
+            }
+            100% {
+                background-position: 500px 1000px, 200px 400px, -100px 300px;
+            }
+        }
+ 
+        @-moz-keyframes snow {
+            0% {
+                background-position: 0px 0px, 0px 0px, 0px 0px;
+            }
+            50% {
+                background-position: 500px 500px, 100px 200px, -100px 150px;
+            }
+            100% {
+                background-position: 400px 1000px, 200px 400px, 100px 300px;
+            }
+        }
+ 
+        @-webkit-keyframes snow {
+            0% {
+                background-position: 0px 0px, 0px 0px, 0px 0px;
+            }
+            50% {
+                background-position: 500px 500px, 100px 200px, -100px 150px;
+            }
+            100% {
+                background-position: 500px 1000px, 200px 400px, -100px 300px;
+            }
+        }
+ 
+        @-ms-keyframes snow {
+            0% {
+                background-position: 0px 0px, 0px 0px, 0px 0px;
+            }
+            50% {
+                background-position: 500px 500px, 100px 200px, -100px 150px;
+            }
+            100% {
+                background-position: 500px 1000px, 200px 400px, -100px 300px;
+            }
+        }
+        /* End Animation Frames */
+    </style>
+ 
+</head>
+ 
+<body>
+    <table class="tblimg" style="height: 900px;border-radius:15px 15px 0px 0px;box-shadow:0px 0px 20px 3px #4e4e4e;" background="http://webr.emv2.com/lidango/Christmass/ChristmasOffers.jpg"
+        align="center" border="0" cellpadding="0" cellspacing="0" width="600px;" class="responsive-table">
+ 
+        <tr>
+            <td id="snow">
+                <table class="wishes" align="center" border="0" cellpadding="0" cellspacing="0" width="400px" class="responsive-table">
+ 
+                    <tr>
+                        <td align="center">
+                            <p class="header">
+                                Dier Customers
+                            </p>
+                        </td>
+                    </tr>
+ 
+                    <tr>
+                        <td align="center">
+                            <p class="text1">
+                                <b>
+                                   Happy Christmas and wish you all the best. :)
+                                </b>
+                            </p>
+                        </td>
+                    </tr>
+ 
+                    
+ 
+ 
+                    <tr>
+                        <td valign="bottom" align="center">
+                            <a class="button" style="color:white; text-decoration:none; margin-top:50px;" href="[EMV LINK]1[EMV /LINK]">Frohe Festtage! 
+ 
+ 
+</a>
+                        </td>
+                    </tr>
+ 
+ 
+                </table>
+            </td>
+        </tr>
+ 
+    </table>
+ 
+   
+</body>
+ 
+</html>
